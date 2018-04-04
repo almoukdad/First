@@ -1,3 +1,4 @@
+// I try to view the differnce between for loop an forEach
 //    arr.forEach(someFunction)
 
 var colors=['red','green','blue','yellow'];
