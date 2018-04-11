@@ -18,7 +18,7 @@ var movies=[						// it's a small sample of DB
 	}
 ]
 
-movies.forEach(function(movie){
+movies.forEach(function(movie){		// try for loop !
 var results = "You Have ";
 	if(movie.hasWatched){
 		results+= "Watched";
@@ -45,6 +45,6 @@ function buildString(movie){
 
 // let's write the same forEach with invoking the function 
 
-movies.forEach(function(movie){
+movies.forEach(function(movie){			// You can pass for loop in side the function 
 	console.log(buildString(movie));
 });
